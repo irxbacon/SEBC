@@ -1,3 +1,4 @@
+///
 [root@ip-10-0-1-167 ~]# cat /proc/sys/vm/swappiness
 60
 [root@ip-10-0-1-167 ~]# 
@@ -195,5 +196,5 @@ SELinux AVC Statistics:
 [root@ip-10-0-1-167 ~]# service ntpd status
 ntpd (pid  4601) is running...
 [root@ip-10-0-1-167 ~]# 
-
+///
 
