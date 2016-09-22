@@ -1,3 +1,4 @@
+```
 [root@ip-10-0-1-167 ~]# cat /proc/sys/vm/swappiness
 60
 [root@ip-10-0-1-167 ~]# 
@@ -51,6 +52,13 @@ Address:	10.0.0.2#53
 Non-authoritative answer:
 Name:	ip-10-0-1-143.ec2.internal
 Address: 10.0.1.143
+
+Installed java-1.7.0-openjdk
+	yum install java-1.7.0-openjdk
+
+
+Installed nscd 
+	yum install nscd
 
 [root@ip-10-0-1-144 ~]# nscd -g
 nscd configuration:
@@ -192,5 +200,26 @@ SELinux AVC Statistics:
 [root@ip-10-0-1-144 ~]# 
 
 
+[root@ip-10-0-1-167 ~]# service ntpd status
+ntpd (pid  4601) is running...
+[root@ip-10-0-1-167 ~]# 
 
+ntpq -p
+[root@ip-10-0-1-230 ~]#  ntpq -p
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
++104.156.99.226  204.123.2.72     2 u    -   64    1   77.501   -0.199   0.159
+*ha3.smatwebdesi 216.229.0.179    2 u    1   64    1   33.837    2.892   0.001
++gopher.fart.web 106.61.18.129    3 u    -   64    1   74.832   -1.756   0.139
+ soft-sea-01.ser 209.51.161.238   2 u    -   64    1   76.402   -0.661   0.001
+[root@ip-10-0-1-230 ~]# 
+
+
+turned off iptables
+	service iptables stop
+	chkconfig iptables off
+		
+
+
+```
 

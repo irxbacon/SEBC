@@ -1,30 +1,39 @@
+```
 Master node : 
-	Instance Name : Master
-	Public IP : ec2-52-44-237-145.compute-1.amazonaws.com
-	Private IP : 10.0.1.167
-	Instance ID : i-594a274f
-Child nodes :
-	Instance Name: XJ
-	Instance ID: i-b4462ba1
-	Private IP : 10.0.1.141
-	Private DNS : ip-10-0-1-141.ec2.internal
+	Instance Name: CJ
+	Instance ID: 
+	Public DNS: ec2-54-196-123-147.compute-1.amazonaws.com
+	Private IP : 10.0.1.121
+	Private DNS : ip-10-0-1-121.ec2.internal
+	Services : Mysql 
 
-	Instance Name: MJ
-	Instance ID: i-b4462ba0
-	Private IP : 10.0.1.142
-	Private DNS : ip-10-0-1-142.ec2.internal
+Child nodes :
+	Instance Name : Master
+	Public IP : ec2-54-196-207-140.compute-1.amazonaws.com
+	Private IP : 10.0.1.125
+	Private DNS : ip-10-0-1-125.ec2.internal
+	Instance ID : i-501b6f46
+	Services : Mysql Server
+	
+	Instance Name: YJ
+	Instance ID: 
+	Public DNS: ec2-54-197-208-25.compute-1.amazonaws.com
+	Private IP : 10.0.1.227
+	Private DNS : ip-10-0-1-227.ec2.internal
 
 	Instance Name: TJ
-	Instance ID: i-b4462baf
-	Private IP : 10.0.1.143
-	Private DNS : ip-10-0-1-143.ec2.internal
+	Instance ID: 
+	Public DNS: ec2-54-84-226-25.compute-1.amazonaws.com
+	Private IP : 10.0.1.123
+	Private DNS : ip-10-0-1-123.ec2.internal
 
-	Instance Name: CJ
-	Instance ID: i-b4462ba2
-	Private IP : 10.0.1.144
-	Private DNS : ip-10-0-1-144.ec2.internal
+	Instance Name: JK
+	Public DNS: ec2-54-86-217-240.compute-1.amazonaws.com
+	Instance ID: 
+	Private IP : 10.0.1.124
+	Private DNS : ip-10-0-1-124.ec2.internal
 
-
+```
 
 
 

@@ -35,6 +35,12 @@ sys	0m1.945s
 Terasort 2
 time hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-0.20-mapreduce/hadoop-examples.jar terasort /user/root/terasort-input /user/root/terasort-output2
 
+Output: 
+16/09/21 14:36:52 INFO terasort.TeraSort: done
+
+real	22m10.780s
+user	0m13.788s
+sys	0m1.404s
 
 
 ```
