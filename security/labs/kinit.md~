@@ -1,0 +1,3 @@
+kinit -k -t hdfs.keytab hdfs/ip-10-0-1-124.ec2.internal@VTRHYNO.COM
+kinit -k -t HTTP.keytab hdfs/ip-10-0-1-124.ec2.internal@VTRHYNO.COM
+

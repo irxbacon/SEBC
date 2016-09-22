@@ -32,6 +32,7 @@ Child nodes :
 	Instance ID: 
 	Private IP : 10.0.1.124
 	Private DNS : ip-10-0-1-124.ec2.internal
+	Kerberos Server
 
 ```
 

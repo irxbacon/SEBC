@@ -8,7 +8,7 @@ Master node :
 	Services : Mysql 
 
 Child nodes :
-	Instance Name : Master
+	Instance Name : XJ
 	Public IP : ec2-54-196-207-140.compute-1.amazonaws.com
 	Private IP : 10.0.1.125
 	Private DNS : ip-10-0-1-125.ec2.internal
