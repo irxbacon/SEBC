@@ -4,7 +4,7 @@
          # Set reducer JVM heap
          RED_MB=`echo "($k*0.8)/1" | bc`
 
-        echo "\n Maps $i , reducers $j, memory $k "      
+        echo "Maps $i , reducers $j, memory $k "      
 
         echo Generation 
         time sudo -u hdfs $HADOOP_PATH/hadoop jar $HADOOP_MR/hadoop-examples.jar teragen \
