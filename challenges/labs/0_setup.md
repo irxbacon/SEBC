@@ -9,4 +9,14 @@ ls /usr/java output :
 	ls: cannot access /usr/java: No such file or directory
 	[root@ip-10-0-1-137 ~]#
 
+/etc/passwd entries for christie and weiner
+	christie:x:2500:2500::/home/christie:/bin/bash
+	weiner:x:2501:2501::/home/weiner:/bin/bash
 
+/etc/group entries for pictures and bridges
+	pictures:x:2502:weiner
+	bridges:x:2503:christie
+
+
+
+```
