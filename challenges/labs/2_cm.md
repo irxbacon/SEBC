@@ -6,3 +6,5 @@ gpgkey =https://archive.cloudera.com/cm5/redhat/5/x86_64/cm/RPM-GPG-KEY-cloudera
 gpgcheck = 1
 
 
+MYSQL Grant
+	grant all on *.* to 'scm'@'54.227.209.61' identified by 'scm';
