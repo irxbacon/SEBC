@@ -37,6 +37,37 @@ mysql> show grants for oozie;
 
 mysql> 
 
+Output for hadoop ls
+[root@ip-10-0-1-135 cloudera-scm-server]# hadoop fs -ls /user
+Found 6 items
+drwxr-xr-x   - christie supergroup          0 2016-09-23 15:32 /user/christie
+drwxrwxrwx   - mapred   hadoop              0 2016-09-23 15:30 /user/history
+drwxrwxr-t   - hive     hive                0 2016-09-23 15:31 /user/hive
+drwxrwxr-x   - hue      hue                 0 2016-09-23 15:31 /user/hue
+drwxrwxr-x   - oozie    oozie               0 2016-09-23 15:32 /user/oozie
+drwxr-xr-x   - weiner   supergroup          0 2016-09-23 15:33 /user/weiner
+[root@ip-10-0-1-135 cloudera-scm-server]# 
+
+Hadoop classpath
+[root@ip-10-0-1-135 cloudera-scm-server]# hadoop classpath
+/etc/hadoop/conf:/usr/lib/hadoop/lib/*:/usr/lib/hadoop/.//*:/usr/lib/hadoop-hdfs/./:/usr/lib/hadoop-hdfs/lib/*:/usr/lib/hadoop-hdfs/.//*:/usr/lib/hadoop-yarn/lib/*:/usr/lib/hadoop-yarn/.//*:/usr/lib/hadoop-mapreduce/lib/*:/usr/lib/hadoop-mapreduce/.//*
+[root@ip-10-0-1-135 cloudera-scm-server]# 
+
+Item from API call
+"items" : [ {
+    "hostId" : "i-e1bdcef7",
+    "ipAddress" : "10.0.1.133",
+    "hostname" : "ip-10-0-1-133.ec2.internal",
+    "rackId" : "/default",
+    "hostUrl" : "http://ip-10-0-1-135.ec2.internal:7180/cmf/hostRedirect/i-e1bdcef7",
+    "maintenanceMode" : false,
+    "maintenanceOwners" : [ ],
+    "commissionState" : "COMMISSIONED",
+    "numCores" : 4,
+    "numPhysicalCores" : 4,
+    "totalPhysMemBytes" : 15740305408
+  },
+
 
 
 ```
